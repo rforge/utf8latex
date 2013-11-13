@@ -1,0 +1,23 @@
+
+English	Eastern Armenian	Western Armenian
+Yes	Ayo (այո)	Ayo (այո)
+No	Voč' (ոչ)	Voč' (ոչ)
+Excuse me	Neroġout'ioun (ներողություն)	Neroġout'ioun (ներողութիւն)
+Hello	Barev (բարև)	Parev (բարև)
+How are you (formal)	Vonts' ek (ո՞նց եք)	Inč'bes ek (ինչպէ՞ս էք)
+How are you (informal)	Inč' ka č'ka (ի՞նչ կա չկա)	Inč' ga č'ga (ի՞նչ կայ չկայ)
+Please	Khntrem (խնդրեմ)	Khntrem (խնդրեմ), Hadjiss (հաճիս)
+Thank you	Šnorhakal em (շնորհակալ եմ)	Šnorhagal em (շնորհակալ եմ)
+Thank you very much	Šat šnorhakal em (շատ շնորհակալ եմ)	Šad šnorhagal em (շատ շնորհակալ եմ)
+Welcome (to a place)	Bari galoust (բարի գալուստ)	singular: Pari yegar (բարի եկար)
+plural or polite: Pari yegak' (բարի եկաք)
+Welcome (as a response to 'thank you')	Khntrem (խնդրեմ)	Khntrem (խնդրեմ)
+Goodbye	C'tesout'ioun (ցտեսություն)	C'desout'ioun (ցտեսութիւն)
+Good morning	Bari louys (բարի լույս)	Pari louys (բարի լոյս)
+Good afternoon	Bari òr (բարի օր)	Pari ges òr (բարի կէս օր)
+Good evening	Bari yereko (բարի երեկո)	Pari irigoun (բարի իրիկուն)
+Good night	Bari gišer (բարի գիշեր)	Kišer pari (գիշեր բարի)
+I love you	Yes k'ez siroum em (ես քեզ սիրում եմ)	Yes ëzk'ez gë sirem (ես զքեզ կը սիրեմ)
+I am Armenian	Yes hay em (ես հայ եմ)	Yes hay em (ես հայ եմ)
+I miss you	Yes k'ez karotum em (ես քեզ կարոտում եմ)	Yes k'ezi garodtzadz em (ես քեզի կարօտցած եմ)
+

@@ -1,0 +1,11 @@
+Package: utf8latex
+Type: Package
+Title: Package for assisting or automating the process of importing, exporting or converting between datasets and LaTeX documents
+Version: 1.0.0
+Encoding: UTF-8
+Authors@R: c(person(given = "José", family = "Gama", role = c("aut","cre"),email = "jgama@abo.fi"), person(given = "Sergueï", family = "Dachian", role = "aut"), person(given = "Göran", family = "Högnäs", role = "ths"))  
+Description: utf8latex assists with importing data stored in text files with Unicode characters and to convert text or data with foreign characters or mathematical symbols to LaTeX.  
+    It also escapes UTF8 code points (fixing the "warning: found non-ASCII strings" problem), detects languages, encodings and more.  
+License: GPL (>= 3)
+Depends: R (>= 2.7.0)
+
