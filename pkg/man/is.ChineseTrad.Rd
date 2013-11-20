@@ -9,16 +9,8 @@
 Mark Baker
 }
 \references{
-Mark Baker 2010, Recognizing text as Simplified vs. Traditional Chinese, http://stackoverflow.com/questions/4083038/recognizing-text-as-simplified-vs-traditional-chinese
+Mark Baker 2010, Recognizing text as Simplified vs. Traditional Chinese
+\url{http://stackoverflow.com/questions/4083038/recognizing-text-as-simplified-vs-traditional-chinese}
 }
 \author{Jose Gama}
-\examples{
-dontrun{
-is.ChineseTrad('阿尔汉格尔斯克')
-is.ChineseTrad('聲音 鳥 樹葉 話 説話 細 又 輕 蝴蝶 請 只有 和 得 聼得到 蜜蜂')
-is.ChineseTrad('正體字/繁體字')
-is.ChineseTrad('繁体字')
-}
-}
-
 \keyword{programming}

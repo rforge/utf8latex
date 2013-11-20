@@ -6,10 +6,4 @@
 \arguments{	\item{utf8char}{ UTF-8 string}}
 \value{	LaTeX string}
 \author{Jose' Gama}
-\examples{
-dontrun{
-x<-'ÅÅa𝒜'
-utf8texc(x)
-}
-}
 \keyword{programming}

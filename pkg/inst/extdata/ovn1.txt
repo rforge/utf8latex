@@ -1,0 +1,88 @@
+Matematiska programpaket
+
+Övning 1, Mathematica
+
+1. Starta Mathematica och undersök verktygspaletterna som finns under
+menyn Palettes
+
+2. Beräkna uttrycken
+(a) 14 + 2(4 - 2),
+(b) 296 / (2 - 5! / 2)
+(c) sin (π / 2) - cos² (π).
+(d) Vad är a) + b) + c)?
+Beräkna uttrycken både exakt och numeriskt.
+
+3. Skriv ut π och e med 100 decimalers noggrannhet. Kan man skriva ut
+dem med 1000 decimaler? (Se dokumentationen för N-kommandot).
+
+4. Undersök vilken bas logaritmfunktionen Log använder. Vilka olika baser stöds av Mathematica? (Testa dig fram eller använd Mathematicas
+dokumentation).
+
+5. Beräkna log₂ 3² + logₑ ( ℯ + 2).
+
+6. Hur räknar man ut n:te rötter i Mathematica? Beräkna ⁿ√3 för n = 1, 2, 3, 4, 5.
+
+7. Beräkna 100! och	(13). (Undersök kommandot Binomial).
+			(4 )
+
+8. Finns arcusfunktionerna som färdigt inbyggda funktioner i Mathematica? Isåfall, vilka är de?
+
+9. Definiera matriserna
+A =	|a 4 |	och B =	|3 5|
+	|2 -1|		|1 b|
+
+Beräkna AB, (AB)ᵀ och (AB)⁻¹ och skriv ut resultaten i matrisform.
+
+10. Definiera funktionerna
+(a) p(x) = -2 + 2x + 3x² - 4x³ + x⁴ ,
+(b) h(x) = 4 - 6x - x² + 3x³ ,
+(c) f (x) = p(x) / h(x)
+Kan man förenkla c) fallet? (Simplify)
+
+11. Beräkna
+(a) p(2) + h(2),
+(b) h(x - 1) + h( x + 1),
+(c) f (2 + h(1)).
+Försök dessutom förenkla b) fallet.
+
+12. Sök nollställen för p(x), h(x) samt p(x) - h(x).
+
+13. Sök minimum och maximum för p(x) och h(x). (Derivera och sök nollställen, försök även använda funktionerna FindMaximum och FindMinimum.
+
+14. Bestäm konstanten a så att ytan som ligger mellan funktionen f (x) = 2x(a - x) och x-axeln är a ytenheter stort. (Använd t.ex. Integrate och Solve).
+
+15. Beräkna
+∫ x³ ℯ⁻ᵃᶺ²⁻ˣᶺ² ⅆx
+
+⌠∞     1     ⅆx
+⌡₀  √x(x + 1)
+
+⌠π   cos(cos(φ)) ⅆφ
+⌡₀
+
+16. Lös ekvationssystemet (med avseende på x och y)
+3px - p²y = 5
+-p²x + 5y = 10
+
+17. Beräkna följande gränsvärden
+(a) lim ₓ→∞  5x³ - 7x
+             2x³ + 8x²
+
+(b) lim ₓ→₀ sin (1/x),
+
+(c) lim ₓ→₄     √x-2
+             x² - 8x + 16
+
+18. Beräkna summan av följande geometriska serier:
+(a) ∑ⁿ ⱼ₌₀ aqʲ,
+
+
+(b) ∑∞ ⱼ₌₀ aqʲ,
+
+(c) ∑∞ ⱼ₌₀ 2(⅓)ʲ,
+
+19. Beräkna f(x)′′′, då
+f(x) = ln(x³) sin(x²).
+
+20. Beräkna partiella derivatorna med avseende på x och y av funktionen f(x,y) = 3x³ y cos(xy⁴).
+

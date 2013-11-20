@@ -28,9 +28,9 @@ if (is.Armenian(inputString)) otherEnc<-'\n\n\\usepackage[latin]{armtex}\n' else
 if (file.exists(outputFile)) file.remove(outputFile)
 cat('\\documentclass[11pt]{article}
 \\usepackage{amsmath,amssymb,mathrsfs,amsthm,textcomp}
-\\usepackage[' %s% langFontEnc['fontEnc'] %s% ']{fontenc}%
+\\usepackage[' , langFontEnc['fontEnc'] , ']{fontenc}%
 \\usepackage[utf8]{inputenc}
-\\usepackage[' %s% langFontEnc['languageBabel'] %s% ']{babel}',otherEnc,'
+\\usepackage[' , langFontEnc['languageBabel'] , ']{babel}',otherEnc,'
 \\title{Fileconverted by utf8latex}
 \\begin{document}',file=outputFile,append=TRUE)
 cat(r,file=outputFile,append=TRUE)

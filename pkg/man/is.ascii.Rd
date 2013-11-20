@@ -7,13 +7,4 @@ wrapper function for ascii from ctype.h}
 \arguments{	\item{utf8char}{ UTF-8 string}}
 \value{	logic}
 \author{Jose' Gama}
-\examples{
-dontrun{
-is.ascii("b")
-is.ascii("Å")
-is.ascii('äÄåÅ')
-is.ascii(c('ä','8','Ä','v','å','^','Å'))
-is.ascii(254)
-}
-}
 \keyword{programming}

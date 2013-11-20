@@ -6,14 +6,4 @@
 \arguments{	\item{utf8var}{ UTF-8 variable}}
 \value{	LaTeX variable}
 \author{Jose' Gama}
-\examples{
-dontrun{
-x<-c('Åõ','aéĩ','𝒜')
-utf8tex(x)
-x<-matrix(c('Åõ','aéĩ','𝒜ĩ','Åõ','aéĩ','𝒜ĩ'),2)
-utf8tex(x)
-x<-data.frame(x,1:2)
-utf8tex(x)
-}
-}
 \keyword{programming}
