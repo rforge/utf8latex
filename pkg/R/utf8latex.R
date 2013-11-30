@@ -67,10 +67,11 @@ write(t(t3),file3cols, sep='\t',ncolumns =3)
 }
 
 joinListOfTags<-function(files3colsUTFlatex, fileCombined){ # creates a file with 3 columns (UTF8 code points, UTF8 character and LaTeX tag) from a list of files
-t3=NULL
+t3<-NULL
 for (tag in files3colsUTFlatex)
 {
 t2<-read.delim(tag, stringsAsFactors=FALSE, header=FALSE,quote='')
+if (dim(t2)[2] != 3) stop(paste('Error!',tag,'doesn\'t have 3 colums of data.'))
 t2<-as.matrix(t2,ncols=3)
 if (any(nchar(t2[,1])!=5)) stop()
 t2[,1]<-toupper(t2[,1])
