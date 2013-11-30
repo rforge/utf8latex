@@ -168,7 +168,7 @@ if (wTags) if (is.na(vTags)) {
 vTags<-matrix(c('L', '\\selectlanguage{english}','T', '\\selectlanguage{thai}','N', '\\artm','E', '\\selectlanguage{georgian}',
 'A', '\\selectlanguage{arabic}','H', '\\selectlanguage{hebrew}','G', '\\selectlanguage{greek}','R', '\\selectlanguage{russian}'), ncol=2, byrow=TRUE)
 }
-if (is.na(vEndTags)) vEndTags <- matrix(c('L', '','T', '','N', '\\rm','E', '',
+if (is.na(vEndTags)) vEndTags <- matrix(c('L', '','T', '','N', '\\aroff','E', '',
 'A', '','H', '','G', '','R', ''), ncol=2, byrow=TRUE)
 langP<-''
 langDataFrame<-c(pos=0,lang='')
