@@ -1,5 +1,5 @@
 useDynLib(utf8latex, .registration = TRUE, .fixes = "C_")
 exportPattern("^[^\\.]")
-#exportPattern("^gp.","%s%")
+importFrom("utils", "read.delim")
 
 
