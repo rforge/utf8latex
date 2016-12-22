@@ -2,13 +2,12 @@
 Conversion tables for UTF8 - Latex
  1908  glyphs,  2042 LaTeX tags, last updated:  Sun Apr 28 06:32:06 2013 
 Based on the work of: 2011 Günter Milde
-Special thanks to Zvi Gilboa for his help!
 Data selected and code created by Jose Gama 2013
 GPL V3 or higher
 */
 
 static  unsigned int UnicodeCodePoint[] = {
-0x00000020, 0x00000023, 0x00000024, 0x00000025, 0x00000026, 0x00000027, 0x00000028,
+0x00000023, 0x00000024, 0x00000025, 0x00000026, 0x00000027, 0x00000028,
 0x00000029, 0x0000002A, 0x0000002C, 0x0000002F, 0x0000003C, 0x0000003E, 0x00000045,
 0x0000004F, 0x0000005E, 0x0000005F, 0x00000060, 0x00000065, 0x00000066, 0x00000069,
 0x0000006F, 0x0000007B, 0x0000007C, 0x0000007D, 0x0000007E, 0x000000A0, 0x000000A1,
@@ -283,7 +282,7 @@ static  unsigned int UnicodeCodePoint[] = {
 0x0001D5C7, 0x0001D5C8, 0x0001D5C9, 0x0001D5CA
 };
 
-static  char *Latex[] = {"\\textblank ", "\\#", "\\textdollar ", "\\%",
+static  char *Latex[] = {"\\#", "\\textdollar ", "\\%",
 "\\&", "\\textquotesingle ", "D", "G",
 "\\textasteriskcentered ", "G'", "\\textfractionsolidus ", "\\textless ",
 "\\textgreater ", "\\b{E}", "\\b{O}", "\\^{ }",
