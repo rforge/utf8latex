@@ -7,5 +7,9 @@
 	\item{tZeros}{ logic, pad with zero}
 	\item{sLen}{ integer, number of digits to return}}
 \value{	character}
+\examples{
+x <- '\u00E4'
+utf8ToHex(x)
+}
 \author{Jose' Gama}
 \keyword{programming}

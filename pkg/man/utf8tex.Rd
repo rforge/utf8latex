@@ -5,5 +5,11 @@
 \usage{utf8tex(utf8var)}
 \arguments{	\item{utf8var}{ UTF-8 variable}}
 \value{	LaTeX variable}
+\examples{
+fileIn<-system.file('extdata/TextHiragana.txt', package='utf8latex')
+# read a UTF-8 string from a file
+x <- scan(file=fileIn,'character', fileEncoding='UTF-8')
+utf8tex(x)
+}
 \author{Jose' Gama}
 \keyword{programming}

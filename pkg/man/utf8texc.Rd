@@ -6,4 +6,10 @@
 \arguments{	\item{utf8char}{ UTF-8 string}}
 \value{	LaTeX string}
 \author{Jose' Gama}
+\examples{
+fileIn<-system.file('extdata/TextHiragana.txt', package='utf8latex')
+# read a UTF-8 string from a file
+x <- scan(file=fileIn,'character', fileEncoding='UTF-8')
+utf8texc(x)
+}
 \keyword{programming}

@@ -1,7 +1,7 @@
 Package: utf8latex
 Type: Package
-Title: Package for Assisting or Automating the Process of Importing, Exporting or Converting Between Datasets and LaTeX Documents
-Version: 1.0.2
+Title: Importing, Exporting or Converting Between Datasets and LaTeX
+Version: 1.0.3
 Encoding: UTF-8
 Author: c(person(given = "Jose", family = "Gama", role = c("aut","cre"),email = "rxprtgama@gmail.com") )
 Maintainer: Jose Gama <rxprtgama@gmail.com>

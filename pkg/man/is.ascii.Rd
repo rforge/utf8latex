@@ -6,5 +6,8 @@ wrapper function for ascii from ctype.h}
 \usage{is.ascii(utf8char)}
 \arguments{	\item{utf8char}{ UTF-8 string}}
 \value{	logic}
+\examples{
+is.ascii('a')
+}
 \author{Jose' Gama}
 \keyword{programming}

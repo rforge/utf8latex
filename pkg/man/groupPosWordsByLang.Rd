@@ -8,5 +8,6 @@
 	\item{vTags}{ vector of custom tags - start tag or standalone tag}
 	\item{vEndTags}{ vector of custom tags - end tag}}
 \value{	character}
+
 \author{Jose' Gama}
 \keyword{programming}
