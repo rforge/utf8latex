@@ -5,5 +5,10 @@
 \usage{is.Latin(utf8char)}
 \arguments{	\item{utf8char}{ UTF-8 string}}
 \value{	logic}
+\examples{
+x <- 'abcd'
+# check if every character is within the Latin Unicode ranges
+lapply(unlist(strsplit(x,'')), is.Latin)
+}
 \author{Jose' Gama}
 \keyword{programming}

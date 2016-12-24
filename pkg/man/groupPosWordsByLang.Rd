@@ -8,6 +8,12 @@
 	\item{vTags}{ vector of custom tags - start tag or standalone tag}
 	\item{vEndTags}{ vector of custom tags - end tag}}
 \value{	character}
-
+\examples{
+fileIn<-system.file('extdata/TextCyrillic.txt', package='utf8latex')
+inputString <- scan(file=fileIn,'character', fileEncoding='UTF-8')
+z<-mapLangID(langString=inputString)
+z1<-groupWordsByLang(z)
+groupPosWordsByLang(z1,TRUE)
+}
 \author{Jose' Gama}
 \keyword{programming}

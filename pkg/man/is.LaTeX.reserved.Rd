@@ -5,5 +5,10 @@
 \usage{is.LaTeX.reserved(utf8char)}
 \arguments{	\item{utf8char}{ UTF-8 string}}
 \value{	logic}
+\examples{
+x <- '^'
+# check if every character is within the Katakana Unicode ranges
+lapply(unlist(strsplit(x,'')), is.LaTeX.reserved)
+}
 \author{Jose' Gama}
 \keyword{programming}

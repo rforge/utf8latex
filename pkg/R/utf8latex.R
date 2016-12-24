@@ -1,9 +1,9 @@
 
 u2tex<-function(inputString=NA, inputFile=NA, outputFile=NA, keepUTF8=TRUE){
 # create a LaTeX file from UTF-8 input with languages grouped automatically
-if ((is.na(inputString)) & (is.na(inputFile))) stop('Error: either parameter <inputString> or <inputFile> should be character')
-if (!is.character(inputString) & (!is.character(inputFile)) ) stop('Error: either parameter <inputString> or <inputFile> should be character')
-if ((is.na(outputFile)) & (is.na(inputFile))) outputFile<-'u2texout.tex'
+if ((is.na(inputString)) && (is.na(inputFile))) stop('Error: either parameter <inputString> or <inputFile> should be character')
+if (!is.character(inputString) && (!is.character(inputFile)) ) stop('Error: either parameter <inputString> or <inputFile> should be character')
+if ((is.na(outputFile)) && (is.na(inputFile))) outputFile<-'u2texout.tex'
 if (is.na(outputFile)) outputFile<-paste(inputFile,'.tex',sep='',collapse='\n')
 if (is.na(inputString)){
 con <- file(inputFile, 'r', blocking = FALSE)
@@ -99,8 +99,8 @@ return(' ')
 }
 
 mapLangID<-function(langString=NA, langFile=NA, mapFile=NA){ # returns a file with each character mapped to an identifier for several languages
-if ((is.na(langString)) & (is.na(langFile))) stop('Error: either parameter <langString> or <langFile> should be character')
-if (!is.character(langString) & (!is.character(langFile)) ) stop('Error: either parameter <langString> or <langFile> should be character')
+if ((is.na(langString)) && (is.na(langFile))) stop('Error: either parameter <langString> or <langFile> should be character')
+if (!is.character(langString) && (!is.character(langFile)) ) stop('Error: either parameter <langString> or <langFile> should be character')
 if (is.character(langString)) r<- langString else {
 con <- file(langFile, 'r', blocking = FALSE)
 r<-readLines(con)
@@ -119,8 +119,8 @@ if (is.character(mapFile)) cat(s,file=mapFile) else return (s)
 
 getFontencAndLang<-function(mLangString=NA, mLangFile=NA)# determine fontenc and [language]babel
 {
-if ((is.na(mLangString)) & (is.na(mLangFile))) stop('Error: either parameter <mLangString> or <mLangFile> should be character')
-if (!is.character(mLangString) & (!is.character(mLangFile)) ) stop('Error: either parameter <mLangString> or <mLangFile> should be character')
+if ((is.na(mLangString)) && (is.na(mLangFile))) stop('Error: either parameter <mLangString> or <mLangFile> should be character')
+if (!is.character(mLangString) && (!is.character(mLangFile)) ) stop('Error: either parameter <mLangString> or <mLangFile> should be character')
 if (is.character(mLangString)) s<- mLangString else s<-mapLangID(langFile=mLangFile)
 lText<-unlist(strsplit(s,''))
 uniqLang<-unique(lText)
@@ -143,8 +143,8 @@ c(fontEnc=fontEnc,languageBabel=languageBabel)
 # group words by language
 groupWordsByLang<-function(mLangString=NA, mLangFile=NA)
 {
-if ((is.na(mLangString)) & (is.na(mLangFile))) stop('Error: either parameter <mLangString> or <mLangFile> should be character')
-if (!is.character(mLangString) & (!is.character(mLangFile)) ) stop('Error: either parameter <mLangString> or <mLangFile> should be character')
+if ((is.na(mLangString)) && (is.na(mLangFile))) stop('Error: either parameter <mLangString> or <mLangFile> should be character')
+if (!is.character(mLangString) && (!is.character(mLangFile)) ) stop('Error: either parameter <mLangString> or <mLangFile> should be character')
 if (is.character(mLangString)) s<- mLangString else s<-mapLangID(langFile=mLangFile)
 s3<-gsub('F','L',mLangString)
 s3<-gsub('V','L',s3)# Vietnamese and African Latin = Latin
