@@ -8,10 +8,12 @@
 \item{file3cols}{ UTF-8 file with tags in three columns}}
 \value{	character}
 \examples{
+\dontrun{
 x <- matrix( c('000BC', '\\frac14','000BD','\\frac12','000BE','\\frac34'),3,2,byrow=FALSE)
 write(x, file='2cols.tab',ncolumns =2, sep ='\t')
 from2colTo3('2cols.tab', '3cols.tab')
 read.table('3cols.tab')
+}
 }
 \author{Jose' Gama}
 \keyword{programming}

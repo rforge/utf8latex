@@ -6,8 +6,10 @@
 \arguments{	\item{filename}{ UTF-8 file}}
 \value{	character}
 \examples{
+\dontrun{
 fileIn<-system.file('extdata/TextGreekBom.txt', package='utf8latex')
 idEncoding(fileIn)
+}
 }
 \author{Wikipedia}
 \keyword{programming}

@@ -19,9 +19,11 @@ Latin		'L'
 	\item{mapFile}{ UTF-8 map file}}
 \value{	character}
 \examples{
+\dontrun{
 fileIn<-system.file('extdata/TextCyrillic.txt', package='utf8latex')
 inputString <- scan(file=fileIn,'character', fileEncoding='UTF-8')
 mapLangID(langString=inputString)
+}
 }
 \author{Jose' Gama}
 \keyword{programming}

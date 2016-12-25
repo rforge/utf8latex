@@ -5,5 +5,9 @@
 \usage{utf8enc(utf8var)}
 \arguments{	\item{utf8var}{ UTF-8 variable}}
 \value{	logic}
+\examples{
+x <- '\u00E5'
+utf8enc(x)
+}
 \author{Jose' Gama}
 \keyword{programming}
